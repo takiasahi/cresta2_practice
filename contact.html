@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cresta Design</title>
+  <meta name="description" content="快適なオフィスをデザインする">
+
+  <!-- css -->
+  <!-- リセットcss -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- こちらがデザインカンプにあったもの -->
+  <!-- <link href=“https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Serif+JP&display=swap” rel=“stylesheet”> -->
+  <!-- 取り直し -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+  <!-- スライドショーslick -->
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+  <!-- 専用 -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>Cresta Design</h1>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#concept">Concept</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="burger-btn">
+        <span class="bar bar-top"></span>
+        <span class="bar bar-mid"></span>
+        <span class="bar bar-btm"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="contact-fv">
+      <p class="contact-title">Contact</p>
+      <p class="section-bottom wrapper">Contact Us</p>
+    </div>
+
+    <!-- contact-form -->
+    <form action="#">
+      <div>
+        <label>お問い合わせ内容</label>
+        <ul class="check-list">
+          <li>
+            <label><input type="checkbox" name="ask" value="doc">資料請求</label>
+          </li>
+          <li>
+            <label><input type="checkbox" name="ask" value="phone">お電話でのご相談を希望</label>
+          </li>
+          <li>
+            <label><input type="checkbox" name="ask" value="apl">申込み</label>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <label for="name">担当者名</label>
+        <input type="text" id="staff" name="staff">
+      </div>
+      <div>
+        <label for="phone">電話番号</label>
+        <input type="phone" id="phone" name="your-phone">
+      </div>
+      <div>
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="your-email">
+      </div>
+      <div>
+        <label for="message">その他</label>
+        <textarea id="message" name="your-message"></textarea>
+      </div>
+      <input type="submit" class="link-btn" value="Submit">
+    </form>
+
+  </main>
+
+  <footer>
+    <small>&copy; cresta.design all rights reserved</small>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- スライダーslick -->
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
